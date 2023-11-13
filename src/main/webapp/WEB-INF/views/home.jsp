@@ -7,6 +7,17 @@
 
 
    <head>
+      <!-- Google Tag Manager -->
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL28VND82B"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-JL28VND82B');
+      </script>
+      <!-- End Google Tag Manager -->
       <!-- Required meta tags -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,7 +35,10 @@
       <link rel="stylesheet" href="${path}/resources/css/font.css">
    </head>
    <body>
-
+   <!-- Google Tag Manager (noscript) -->
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53CFB64J"
+                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <!-- End Google Tag Manager (noscript) -->
          <%@ include file="header.jsp" %>
 
          <!-- TOP Nav Bar END --> <!-- 여기 까지 모든 jsp 파일이 동일해야함 -->
@@ -35,7 +49,7 @@
                   <div class="col-lg-12">
                      <div class="iq-card-transparent iq-card-block iq-card-stretch iq-card-height rounded">
                         <div class="newrealease-contens">
-                           <h4 class="card-title mb-0">베스트 셀러</h4>
+                           <h4 class="card-title mb-0">베스트 셀러dd</h4>
                            <ul id="newrealease-slider" class="list-inline p-0 m-0 d-flex align-items-center">
                               <li class="item">
                                  <a href="javascript:void(0);">
